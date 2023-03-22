@@ -12,6 +12,5 @@ export const useAdicionarNoCarrinho = () => {
       ...carrinhoAnterior,
       { ...produto, quantidade: 1 },
     ]);
-    console.log(carrinho);
   };
 };
